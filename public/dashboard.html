@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google" content="notranslate" />
+  <title>Dashboard</title>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/dashboard.css">
+  
+
+  
+</head>
+<body>
+  <!-- START NAV -->
+  <nav class="navbar is-white">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item brand-text" href="#">
+          Dashboard
+        </a>
+        <div class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="">
+          </a>
+          <a class="navbar-item" href="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAV -->
+  <!-- Start of sidebar -->
+  <div class="container">
+    <div class="columns">
+      <div class="column is-3 ">
+        <aside class="menu is-hidden-mobile">
+          <p class="menu-label">
+            General
+          </p>
+          <ul class="menu-list">
+            <li><a id="dashboardbutton" class="is-active">Dashboard</a></li>
+            <li><a id="profilebutton">Profile</a></li>
+            <li><a>Sign Out</a></li>
+          </ul>
+        </aside>
+      </div>
+      <!-- End of sidebar -->
+      <!-- Start of Welcome Bar -->
+      <div class="column is-9">
+        <div id="normal">
+          <section class="hero is-info is-bold welcome is-small">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                  Hey, Josh.
+                </h1>
+                <h2 class="subtitle">
+                  Lets Get Shredded
+                </h2>
+              </div>
+            </div>
+          </section>
+        
+        <!-- End of welcome bar -->
+        <!-- Start of top information tiles -->
+        <section class="info-tiles">
+          <div class="tile is-ancestor has-text-centered">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <p class="title">0 cal</p>
+                <p class="subtitle">Calories Burned</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <p class="title">0</p>
+                <p class="subtitle">Miles Ran</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <p class="title">0</p>
+                <p class="subtitle">filler</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <p class="title">0</p>
+                <p class="subtitle">filler</p>
+              </article>
+            </div>
+          </div>
+        </section>
+      
+        <!-- End of info tiles -->
+        <!-- Start of Scrolling Containers -->
+        <div class="app">
+          <h1>Resistance</h1>
+          <ul class="hs full">
+            <li class="item">test</li>
+            <li class="item">test</li>
+            <li class="item">test</li>
+            <li class="item">test</li>
+            <li class="item">test</li>
+            <li class="item">test</li>
+          </ul>
+          <h1>Cardio</h1>
+          <ul class="hs full no-scrollbar">
+            <li class="item">test</li>
+            <li class="item">test</li>
+            <li class="item">test</li>
+            <li class="item">test</li>
+          </ul>
+        </div>
+      </div>
+        <!-- End of scrolling Containers -->
+        <!-- Start of Profile Page -->
+        <div id="profile" class="column is-9">
+          <section class="hero is-dark is-bold welcome is-small">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                  Joshua Joyce
+                </h1>
+                <h2 class="subtitle">
+                </h2>
+              </div>
+            </div>
+          </section>
+          <div id="profilecolumn">
+            <h1 class="profilestuff"><b>Age:</b></h1>
+            <h1 class="profilestuff"><b>Height:</b></h1>
+            <h1 class="profilestuff"><b>Gender:</b></h1>
+            <h1 class="profilestuff"><b>Activity Level:</b></h1>
+          </div>
+          <!-- End of Profile Page -->
+          <!-- Cardio -->
+          <!-- <div class="column is-6">
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">
+                Cardio
+              </p>
+              <a href="#" class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </a>
+            </header>
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Cardio
+                </p>
+                <a href="#" class="card-header-icon" aria-label="more options">
+                  <span class="icon">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </span>
+                </a>
+              </header>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <script src="./assets/js/index.js"></script>
+          
+</body>
+</html>

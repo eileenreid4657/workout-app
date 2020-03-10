@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(117, 142, 255), rgb(156, 84, 238));
+    font-family: sans-serif;
+    color: white;
+  }
+  .wrapper {
+    width: 100%;
+    max-width: 700px;
+  }
+  .MainSection {
+    position: relative;
+    background-color: rgb(117, 142, 255);
+    border-radius: 20px;
+    min-height: 400px;
+  }
+  .mainSectionBackground,
+  .mainSectionElements {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .mainSectionBackground {
+    background-image: url("../images/fitnessBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+  }
+  .info {
+    width: 200px;
+  }
+  .propic {
+    background-color: white;
+    padding: 5px;
+    border-radius: 100%;
+  }
+  .ProfileInfo {
+    width: 260px;
+    display: flex;
+    align-items: left;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
